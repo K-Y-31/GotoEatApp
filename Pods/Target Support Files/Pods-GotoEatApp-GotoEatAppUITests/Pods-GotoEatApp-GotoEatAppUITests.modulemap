@@ -1,0 +1,6 @@
+framework module Pods_GotoEatApp_GotoEatAppUITests {
+  umbrella header "Pods-GotoEatApp-GotoEatAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

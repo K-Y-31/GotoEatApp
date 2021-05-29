@@ -3,10 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36544D2C2654B27500263F3F /* SearchResultShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544D2B2654B27500263F3F /* SearchResultShop.swift */; };
+		36544D342654B64600263F3F /* SearchShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544D332654B64600263F3F /* SearchShopData.swift */; };
+		36544D412654D9BB00263F3F /* SearchResultItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544D402654D9BB00263F3F /* SearchResultItemView.swift */; };
+		36544D472654F2FC00263F3F /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544D462654F2FC00263F3F /* KeyboardObserver.swift */; };
+		36544D95265678CF00263F3F /* LibralyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544D94265678CF00263F3F /* LibralyView.swift */; };
+		36544DA126568B5E00263F3F /* SaveShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DA026568B5E00263F3F /* SaveShopData.swift */; };
+		36544DA626568BA800263F3F /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DA526568BA800263F3F /* ShopData.swift */; };
+		36544DB92658BDDE00263F3F /* ShopData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36544DB72658BDDE00263F3F /* ShopData.xcdatamodeld */; };
+		36544DBF2658C0F700263F3F /* ShopCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DBE2658C0F700263F3F /* ShopCoreData.swift */; };
+		36544DC4265A1C2200263F3F /* GenreSearchShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DC3265A1C2200263F3F /* GenreSearchShopData.swift */; };
+		36544DC9265A1CAE00263F3F /* GenreShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DC8265A1CAE00263F3F /* GenreShopData.swift */; };
+		36544DD2265A27AF00263F3F /* IzakayaCategoryShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DD1265A27AF00263F3F /* IzakayaCategoryShopView.swift */; };
+		36544DD8265B2CEC00263F3F /* IzakayaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DD7265B2CEC00263F3F /* IzakayaData.swift */; };
+		36544DE0265B2FAB00263F3F /* KoreaRestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DDF265B2FAB00263F3F /* KoreaRestaurantData.swift */; };
+		36544DE5265B306300263F3F /* SousakuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DE4265B306300263F3F /* SousakuData.swift */; };
+		36544DEA265B30F400263F3F /* DiningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DE9265B30F400263F3F /* DiningData.swift */; };
+		36544DEF265B31A600263F3F /* WashokuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DEE265B31A600263F3F /* WashokuData.swift */; };
+		36544DF4265B324800263F3F /* YoushokuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DF3265B324800263F3F /* YoushokuData.swift */; };
+		36544DF9265B32F100263F3F /* ItarianFrenchiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DF8265B32F100263F3F /* ItarianFrenchiData.swift */; };
+		36544DFE265B338000263F3F /* ChuukaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544DFD265B338000263F3F /* ChuukaData.swift */; };
+		36544E03265B33E700263F3F /* YakinikuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E02265B33E700263F3F /* YakinikuData.swift */; };
+		36544E08265B347C00263F3F /* AsiaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E07265B347C00263F3F /* AsiaData.swift */; };
+		36544E0D265B34F100263F3F /* WorldCookingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E0C265B34F100263F3F /* WorldCookingData.swift */; };
+		36544E12265B359800263F3F /* CaraokeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E11265B359800263F3F /* CaraokeData.swift */; };
+		36544E17265B361B00263F3F /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E16265B361B00263F3F /* BarData.swift */; };
+		36544E1C265B367700263F3F /* RamenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E1B265B367700263F3F /* RamenData.swift */; };
+		36544E21265B36D500263F3F /* OkonomiyakiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E20265B36D500263F3F /* OkonomiyakiData.swift */; };
+		36544E26265B375800263F3F /* CafeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E25265B375800263F3F /* CafeData.swift */; };
+		36544E2B265B37BA00263F3F /* OtherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E2A265B37BA00263F3F /* OtherData.swift */; };
+		36544E7E265DE5E800263F3F /* LocationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E7D265DE5E800263F3F /* LocationObserver.swift */; };
+		36544E83265DE80A00263F3F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36544E82265DE80A00263F3F /* CoreLocation.framework */; };
+		36544E88265DEB0E00263F3F /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E87265DEB0E00263F3F /* LocationMapView.swift */; };
+		36544E8D265DECC200263F3F /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E8C265DECC200263F3F /* LocationView.swift */; };
+		36544E92265E467D00263F3F /* ShopPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E91265E467D00263F3F /* ShopPage.swift */; };
+		36544E97265E48D400263F3F /* FetchShopPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E96265E48D400263F3F /* FetchShopPageData.swift */; };
+		36544E9D2660C10D00263F3F /* IzakayaShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544E9C2660C10D00263F3F /* IzakayaShopView.swift */; };
+		36544EA52660CD6800263F3F /* KoreaCategoryShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EA42660CD6800263F3F /* KoreaCategoryShopView.swift */; };
+		36544EAE2660F93400263F3F /* KoreaShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EAD2660F93400263F3F /* KoreaShopView.swift */; };
+		36544EB62661115000263F3F /* SousakuCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EB52661115000263F3F /* SousakuCategoryShop.swift */; };
+		36544EBB266111C100263F3F /* SousakuShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EBA266111C100263F3F /* SousakuShopView.swift */; };
+		36544EC02661122900263F3F /* DiningCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EBF2661122900263F3F /* DiningCategoryShop.swift */; };
+		36544EC52661128400263F3F /* DiningShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EC42661128400263F3F /* DiningShopView.swift */; };
+		36544ECA266112D500263F3F /* WashokuCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EC9266112D500263F3F /* WashokuCategoryShop.swift */; };
+		36544ECF2661131200263F3F /* WashokuShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544ECE2661131200263F3F /* WashokuShopView.swift */; };
+		36544ED42661137800263F3F /* YoushokuCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544ED32661137800263F3F /* YoushokuCategoryShop.swift */; };
+		36544ED9266113DF00263F3F /* YoushokuShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544ED8266113DF00263F3F /* YoushokuShopView.swift */; };
+		36544EDE2661145F00263F3F /* ItarianCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EDD2661145F00263F3F /* ItarianCategoryShop.swift */; };
+		36544EE3266114B400263F3F /* ItarianShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EE2266114B400263F3F /* ItarianShopView.swift */; };
+		36544EE82661154700263F3F /* ChuukaCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EE72661154700263F3F /* ChuukaCategoryShop.swift */; };
+		36544EED2661159F00263F3F /* ChuukaShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EEC2661159F00263F3F /* ChuukaShopView.swift */; };
+		36544EF2266115FF00263F3F /* YakinikuCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EF1266115FF00263F3F /* YakinikuCategoryShop.swift */; };
+		36544EF72661163D00263F3F /* YakinikuShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EF62661163D00263F3F /* YakinikuShopView.swift */; };
+		36544EFC2661169F00263F3F /* AsiaCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544EFB2661169F00263F3F /* AsiaCategoryShop.swift */; };
+		36544F012661170D00263F3F /* AsiaShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F002661170D00263F3F /* AsiaShopView.swift */; };
+		36544F062661176700263F3F /* WorldCokkingCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F052661176700263F3F /* WorldCokkingCategoryShop.swift */; };
+		36544F0B266117D600263F3F /* WorldCokkingShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F0A266117D600263F3F /* WorldCokkingShopView.swift */; };
+		36544F11266118AA00263F3F /* CaraokeCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F10266118AA00263F3F /* CaraokeCategoryShop.swift */; };
+		36544F16266118F800263F3F /* CaraokeShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F15266118F800263F3F /* CaraokeShopView.swift */; };
+		36544F1B2661197000263F3F /* BarCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F1A2661197000263F3F /* BarCategoryShop.swift */; };
+		36544F20266119C200263F3F /* BarShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F1F266119C200263F3F /* BarShopView.swift */; };
+		36544F2526611A1100263F3F /* RamenCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F2426611A1100263F3F /* RamenCategoryShop.swift */; };
+		36544F2A26611A4A00263F3F /* RamenShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F2926611A4A00263F3F /* RamenShopView.swift */; };
+		36544F2F26611AFE00263F3F /* OkonomiyakiCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F2E26611AFE00263F3F /* OkonomiyakiCategoryShop.swift */; };
+		36544F3426611B4800263F3F /* OkonomiyakiShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F3326611B4800263F3F /* OkonomiyakiShopView.swift */; };
+		36544F3926611BAD00263F3F /* CafeCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F3826611BAD00263F3F /* CafeCategoryShop.swift */; };
+		36544F3E26611BFD00263F3F /* OtherCategoryShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F3D26611BFD00263F3F /* OtherCategoryShop.swift */; };
+		36544F4326611C2400263F3F /* CafeShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F4226611C2400263F3F /* CafeShopView.swift */; };
+		36544F4826611CA400263F3F /* OtherShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F4726611CA400263F3F /* OtherShopView.swift */; };
+		36544F8F2662019100263F3F /* SearchItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36544F8E2662019100263F3F /* SearchItemInfo.swift */; };
 		36F16E462646CA8A00E624C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16E452646CA8A00E624C4 /* AppDelegate.swift */; };
 		36F16E482646CA8A00E624C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16E472646CA8A00E624C4 /* SceneDelegate.swift */; };
 		36F16E4A2646CA8A00E624C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16E492646CA8A00E624C4 /* ContentView.swift */; };
@@ -15,6 +84,29 @@
 		36F16E522646CA9100E624C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F16E502646CA9100E624C4 /* LaunchScreen.storyboard */; };
 		36F16E5D2646CA9100E624C4 /* GotoEatAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16E5C2646CA9100E624C4 /* GotoEatAppTests.swift */; };
 		36F16E682646CA9100E624C4 /* GotoEatAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16E672646CA9100E624C4 /* GotoEatAppUITests.swift */; };
+		36F16EC82646D5EC00E624C4 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16EC72646D5EC00E624C4 /* Shop.swift */; };
+		36F16F812648017900E624C4 /* URLImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16F802648017900E624C4 /* URLImageViewModel.swift */; };
+		36F16F86264804DB00E624C4 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16F85264804DB00E624C4 /* URLImageView.swift */; };
+		36F16F9A2649334100E624C4 /* FetchShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16F992649334100E624C4 /* FetchShopData.swift */; };
+		36F16FA2264957EA00E624C4 /* ShopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F16FA1264957EA00E624C4 /* ShopRow.swift */; };
+		36F17007264A1CE200E624C4 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F17006264A1CE100E624C4 /* CategoryRow.swift */; };
+		36F1700C264A1D3900E624C4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F1700B264A1D3900E624C4 /* Category.swift */; };
+		36F1703E264D4E8400E624C4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F1703D264D4E8400E624C4 /* HomeView.swift */; };
+		36F17066264D741E00E624C4 /* ShopImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F17065264D741E00E624C4 /* ShopImage.swift */; };
+		36F17073264DEB5F00E624C4 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F17072264DEB5F00E624C4 /* ShopView.swift */; };
+		36F17079264DF4DC00E624C4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F17078264DF4DC00E624C4 /* PageViewController.swift */; };
+		36F170AF264E24E800E624C4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F170AE264E24E800E624C4 /* MapView.swift */; };
+		36F17143264F64D600E624C4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F17142264F64D600E624C4 /* SearchViewController.swift */; };
+		36F1714B264F669600E624C4 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F1714A264F669600E624C4 /* SearchView.swift */; };
+		36F171A32651E25B00E624C4 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F171A22651E25B00E624C4 /* PageView.swift */; };
+		36F171A82651E70E00E624C4 /* ShopCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F171A72651E70E00E624C4 /* ShopCard.swift */; };
+		36F171E02654A05D00E624C4 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F171DF2654A05D00E624C4 /* ModelData.swift */; };
+		36F171E52654A08F00E624C4 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 36F171E42654A08F00E624C4 /* landmarkData.json */; };
+		36F171EA2654A0B300E624C4 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F171E92654A0B300E624C4 /* LandMark.swift */; };
+		36F171EF2654A51F00E624C4 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F171EE2654A51F00E624C4 /* PageControl.swift */; };
+		51C69FC945B2EEFA9E903D58 /* Pods_GotoEatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB9939A977BA0CC9A518A817 /* Pods_GotoEatApp.framework */; };
+		5292F2A2D12AB5CE0CE96DA1 /* Pods_GotoEatApp_GotoEatAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5273CBCE404946631620E7A0 /* Pods_GotoEatApp_GotoEatAppUITests.framework */; };
+		E9FA440614203CD5BF9C68B4 /* Pods_GotoEatAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCB38248341AD71D2C5C7379 /* Pods_GotoEatAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +127,78 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1ABDFA52D5113E7FB64A5C /* Pods-GotoEatApp-GotoEatAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatApp-GotoEatAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-GotoEatApp-GotoEatAppUITests/Pods-GotoEatApp-GotoEatAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F37EA2D410B32A801DB229C /* Pods-GotoEatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatApp.release.xcconfig"; path = "Target Support Files/Pods-GotoEatApp/Pods-GotoEatApp.release.xcconfig"; sourceTree = "<group>"; };
+		2C6D3BAA5659B9D11EF4A4D8 /* Pods-GotoEatApp-GotoEatAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatApp-GotoEatAppUITests.release.xcconfig"; path = "Target Support Files/Pods-GotoEatApp-GotoEatAppUITests/Pods-GotoEatApp-GotoEatAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36544D2B2654B27500263F3F /* SearchResultShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultShop.swift; sourceTree = "<group>"; };
+		36544D332654B64600263F3F /* SearchShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchShopData.swift; sourceTree = "<group>"; };
+		36544D402654D9BB00263F3F /* SearchResultItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItemView.swift; sourceTree = "<group>"; };
+		36544D462654F2FC00263F3F /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		36544D94265678CF00263F3F /* LibralyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibralyView.swift; sourceTree = "<group>"; };
+		36544DA026568B5E00263F3F /* SaveShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveShopData.swift; sourceTree = "<group>"; };
+		36544DA526568BA800263F3F /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		36544DB82658BDDE00263F3F /* ShopData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShopData.xcdatamodel; sourceTree = "<group>"; };
+		36544DBE2658C0F700263F3F /* ShopCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCoreData.swift; sourceTree = "<group>"; };
+		36544DC3265A1C2200263F3F /* GenreSearchShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSearchShopData.swift; sourceTree = "<group>"; };
+		36544DC8265A1CAE00263F3F /* GenreShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreShopData.swift; sourceTree = "<group>"; };
+		36544DD1265A27AF00263F3F /* IzakayaCategoryShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzakayaCategoryShopView.swift; sourceTree = "<group>"; };
+		36544DD7265B2CEC00263F3F /* IzakayaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzakayaData.swift; sourceTree = "<group>"; };
+		36544DDF265B2FAB00263F3F /* KoreaRestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaRestaurantData.swift; sourceTree = "<group>"; };
+		36544DE4265B306300263F3F /* SousakuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousakuData.swift; sourceTree = "<group>"; };
+		36544DE9265B30F400263F3F /* DiningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningData.swift; sourceTree = "<group>"; };
+		36544DEE265B31A600263F3F /* WashokuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashokuData.swift; sourceTree = "<group>"; };
+		36544DF3265B324800263F3F /* YoushokuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoushokuData.swift; sourceTree = "<group>"; };
+		36544DF8265B32F100263F3F /* ItarianFrenchiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItarianFrenchiData.swift; sourceTree = "<group>"; };
+		36544DFD265B338000263F3F /* ChuukaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuukaData.swift; sourceTree = "<group>"; };
+		36544E02265B33E700263F3F /* YakinikuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakinikuData.swift; sourceTree = "<group>"; };
+		36544E07265B347C00263F3F /* AsiaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsiaData.swift; sourceTree = "<group>"; };
+		36544E0C265B34F100263F3F /* WorldCookingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCookingData.swift; sourceTree = "<group>"; };
+		36544E11265B359800263F3F /* CaraokeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraokeData.swift; sourceTree = "<group>"; };
+		36544E16265B361B00263F3F /* BarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarData.swift; sourceTree = "<group>"; };
+		36544E1B265B367700263F3F /* RamenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenData.swift; sourceTree = "<group>"; };
+		36544E20265B36D500263F3F /* OkonomiyakiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiData.swift; sourceTree = "<group>"; };
+		36544E25265B375800263F3F /* CafeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeData.swift; sourceTree = "<group>"; };
+		36544E2A265B37BA00263F3F /* OtherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherData.swift; sourceTree = "<group>"; };
+		36544E7D265DE5E800263F3F /* LocationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationObserver.swift; sourceTree = "<group>"; };
+		36544E82265DE80A00263F3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		36544E87265DEB0E00263F3F /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		36544E8C265DECC200263F3F /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		36544E91265E467D00263F3F /* ShopPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPage.swift; sourceTree = "<group>"; };
+		36544E96265E48D400263F3F /* FetchShopPageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchShopPageData.swift; sourceTree = "<group>"; };
+		36544E9C2660C10D00263F3F /* IzakayaShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IzakayaShopView.swift; sourceTree = "<group>"; };
+		36544EA42660CD6800263F3F /* KoreaCategoryShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaCategoryShopView.swift; sourceTree = "<group>"; };
+		36544EAD2660F93400263F3F /* KoreaShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreaShopView.swift; sourceTree = "<group>"; };
+		36544EB52661115000263F3F /* SousakuCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousakuCategoryShop.swift; sourceTree = "<group>"; };
+		36544EBA266111C100263F3F /* SousakuShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousakuShopView.swift; sourceTree = "<group>"; };
+		36544EBF2661122900263F3F /* DiningCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningCategoryShop.swift; sourceTree = "<group>"; };
+		36544EC42661128400263F3F /* DiningShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningShopView.swift; sourceTree = "<group>"; };
+		36544EC9266112D500263F3F /* WashokuCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashokuCategoryShop.swift; sourceTree = "<group>"; };
+		36544ECE2661131200263F3F /* WashokuShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashokuShopView.swift; sourceTree = "<group>"; };
+		36544ED32661137800263F3F /* YoushokuCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoushokuCategoryShop.swift; sourceTree = "<group>"; };
+		36544ED8266113DF00263F3F /* YoushokuShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoushokuShopView.swift; sourceTree = "<group>"; };
+		36544EDD2661145F00263F3F /* ItarianCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItarianCategoryShop.swift; sourceTree = "<group>"; };
+		36544EE2266114B400263F3F /* ItarianShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItarianShopView.swift; sourceTree = "<group>"; };
+		36544EE72661154700263F3F /* ChuukaCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuukaCategoryShop.swift; sourceTree = "<group>"; };
+		36544EEC2661159F00263F3F /* ChuukaShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuukaShopView.swift; sourceTree = "<group>"; };
+		36544EF1266115FF00263F3F /* YakinikuCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakinikuCategoryShop.swift; sourceTree = "<group>"; };
+		36544EF62661163D00263F3F /* YakinikuShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YakinikuShopView.swift; sourceTree = "<group>"; };
+		36544EFB2661169F00263F3F /* AsiaCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsiaCategoryShop.swift; sourceTree = "<group>"; };
+		36544F002661170D00263F3F /* AsiaShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsiaShopView.swift; sourceTree = "<group>"; };
+		36544F052661176700263F3F /* WorldCokkingCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCokkingCategoryShop.swift; sourceTree = "<group>"; };
+		36544F0A266117D600263F3F /* WorldCokkingShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCokkingShopView.swift; sourceTree = "<group>"; };
+		36544F10266118AA00263F3F /* CaraokeCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraokeCategoryShop.swift; sourceTree = "<group>"; };
+		36544F15266118F800263F3F /* CaraokeShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraokeShopView.swift; sourceTree = "<group>"; };
+		36544F1A2661197000263F3F /* BarCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCategoryShop.swift; sourceTree = "<group>"; };
+		36544F1F266119C200263F3F /* BarShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarShopView.swift; sourceTree = "<group>"; };
+		36544F2426611A1100263F3F /* RamenCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenCategoryShop.swift; sourceTree = "<group>"; };
+		36544F2926611A4A00263F3F /* RamenShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamenShopView.swift; sourceTree = "<group>"; };
+		36544F2E26611AFE00263F3F /* OkonomiyakiCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiCategoryShop.swift; sourceTree = "<group>"; };
+		36544F3326611B4800263F3F /* OkonomiyakiShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkonomiyakiShopView.swift; sourceTree = "<group>"; };
+		36544F3826611BAD00263F3F /* CafeCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeCategoryShop.swift; sourceTree = "<group>"; };
+		36544F3D26611BFD00263F3F /* OtherCategoryShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherCategoryShop.swift; sourceTree = "<group>"; };
+		36544F4226611C2400263F3F /* CafeShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeShopView.swift; sourceTree = "<group>"; };
+		36544F4726611CA400263F3F /* OtherShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherShopView.swift; sourceTree = "<group>"; };
+		36544F8E2662019100263F3F /* SearchItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemInfo.swift; sourceTree = "<group>"; };
 		36F16E422646CA8A00E624C4 /* GotoEatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotoEatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F16E452646CA8A00E624C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36F16E472646CA8A00E624C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +213,32 @@
 		36F16E632646CA9100E624C4 /* GotoEatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GotoEatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F16E672646CA9100E624C4 /* GotoEatAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GotoEatAppUITests.swift; sourceTree = "<group>"; };
 		36F16E692646CA9100E624C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F16EC72646D5EC00E624C4 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		36F16F802648017900E624C4 /* URLImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageViewModel.swift; sourceTree = "<group>"; };
+		36F16F85264804DB00E624C4 /* URLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImageView.swift; sourceTree = "<group>"; };
+		36F16F992649334100E624C4 /* FetchShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchShopData.swift; sourceTree = "<group>"; };
+		36F16FA1264957EA00E624C4 /* ShopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopRow.swift; sourceTree = "<group>"; };
+		36F17006264A1CE100E624C4 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		36F1700B264A1D3900E624C4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		36F1703D264D4E8400E624C4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		36F17065264D741E00E624C4 /* ShopImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopImage.swift; sourceTree = "<group>"; };
+		36F17072264DEB5F00E624C4 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		36F17078264DF4DC00E624C4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		36F170AE264E24E800E624C4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		36F17142264F64D600E624C4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		36F1714A264F669600E624C4 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		36F171A22651E25B00E624C4 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		36F171A72651E70E00E624C4 /* ShopCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCard.swift; sourceTree = "<group>"; };
+		36F171DF2654A05D00E624C4 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		36F171E42654A08F00E624C4 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		36F171E92654A0B300E624C4 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
+		36F171EE2654A51F00E624C4 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		5273CBCE404946631620E7A0 /* Pods_GotoEatApp_GotoEatAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotoEatApp_GotoEatAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CB2A33ADFD84BC308BDFB5 /* Pods-GotoEatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatApp.debug.xcconfig"; path = "Target Support Files/Pods-GotoEatApp/Pods-GotoEatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		96A8C1CD4E378ECD439EA367 /* Pods-GotoEatAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatAppTests.release.xcconfig"; path = "Target Support Files/Pods-GotoEatAppTests/Pods-GotoEatAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB9939A977BA0CC9A518A817 /* Pods_GotoEatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotoEatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCB38248341AD71D2C5C7379 /* Pods_GotoEatAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotoEatAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FF95AD174053D008D11E6C /* Pods-GotoEatAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotoEatAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GotoEatAppTests/Pods-GotoEatAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +246,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36544E83265DE80A00263F3F /* CoreLocation.framework in Frameworks */,
+				51C69FC945B2EEFA9E903D58 /* Pods_GotoEatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FA440614203CD5BF9C68B4 /* Pods_GotoEatAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +263,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5292F2A2D12AB5CE0CE96DA1 /* Pods_GotoEatApp_GotoEatAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36544D452654F2CB00263F3F /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				36544D462654F2FC00263F3F /* KeyboardObserver.swift */,
+			);
+			path = KeyBoard;
+			sourceTree = "<group>";
+		};
+		36544D93265678A300263F3F /* Libraly */ = {
+			isa = PBXGroup;
+			children = (
+				36544D94265678CF00263F3F /* LibralyView.swift */,
+			);
+			path = Libraly;
+			sourceTree = "<group>";
+		};
+		36544D9F26568B3D00263F3F /* SaveData */ = {
+			isa = PBXGroup;
+			children = (
+				36544DA026568B5E00263F3F /* SaveShopData.swift */,
+			);
+			path = SaveData;
+			sourceTree = "<group>";
+		};
+		36544DBD2658C0E600263F3F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				36544DBE2658C0F700263F3F /* ShopCoreData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		36544DD6265B2CD200263F3F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				36544DD7265B2CEC00263F3F /* IzakayaData.swift */,
+				36544DDF265B2FAB00263F3F /* KoreaRestaurantData.swift */,
+				36544DE4265B306300263F3F /* SousakuData.swift */,
+				36544DE9265B30F400263F3F /* DiningData.swift */,
+				36544DEE265B31A600263F3F /* WashokuData.swift */,
+				36544DF3265B324800263F3F /* YoushokuData.swift */,
+				36544DF8265B32F100263F3F /* ItarianFrenchiData.swift */,
+				36544DFD265B338000263F3F /* ChuukaData.swift */,
+				36544E02265B33E700263F3F /* YakinikuData.swift */,
+				36544E07265B347C00263F3F /* AsiaData.swift */,
+				36544E0C265B34F100263F3F /* WorldCookingData.swift */,
+				36544E11265B359800263F3F /* CaraokeData.swift */,
+				36544E16265B361B00263F3F /* BarData.swift */,
+				36544E1B265B367700263F3F /* RamenData.swift */,
+				36544E20265B36D500263F3F /* OkonomiyakiData.swift */,
+				36544E25265B375800263F3F /* CafeData.swift */,
+				36544E2A265B37BA00263F3F /* OtherData.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		36544E77265DE5A000263F3F /* LocationBackground */ = {
+			isa = PBXGroup;
+			children = (
+				36544E7D265DE5E800263F3F /* LocationObserver.swift */,
+				36544E87265DEB0E00263F3F /* LocationMapView.swift */,
+				36544E8C265DECC200263F3F /* LocationView.swift */,
+			);
+			path = LocationBackground;
+			sourceTree = "<group>";
+		};
 		36F16E392646CA8A00E624C4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +343,8 @@
 				36F16E5B2646CA9100E624C4 /* GotoEatAppTests */,
 				36F16E662646CA9100E624C4 /* GotoEatAppUITests */,
 				36F16E432646CA8A00E624C4 /* Products */,
+				8437F03F6157BE068A21278D /* Pods */,
+				D1684A677957B425269C15AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +361,21 @@
 		36F16E442646CA8A00E624C4 /* GotoEatApp */ = {
 			isa = PBXGroup;
 			children = (
+				36544E77265DE5A000263F3F /* LocationBackground */,
+				36544DBD2658C0E600263F3F /* CoreData */,
+				36544D9F26568B3D00263F3F /* SaveData */,
+				36544D93265678A300263F3F /* Libraly */,
+				36544D452654F2CB00263F3F /* KeyBoard */,
+				36F171DE2654A04D00E624C4 /* SampleModel */,
+				36F1713E264F64C200E624C4 /* SearchView */,
+				36F170AD264E24DA00E624C4 /* Map */,
+				36F17077264DF48A00E624C4 /* PageView */,
+				36F17038264D4E5000E624C4 /* Home */,
+				36F17034264D4D2B00E624C4 /* API */,
+				36F17032264D4CE600E624C4 /* CategoryRow */,
+				36F17031264D4CC900E624C4 /* ShopRow */,
+				36F1702A264D4C9D00E624C4 /* ImageView */,
+				36F16F7C2647EF3C00E624C4 /* Data */,
 				36F16E452646CA8A00E624C4 /* AppDelegate.swift */,
 				36F16E472646CA8A00E624C4 /* SceneDelegate.swift */,
 				36F16E492646CA8A00E624C4 /* ContentView.swift */,
@@ -106,6 +383,7 @@
 				36F16E502646CA9100E624C4 /* LaunchScreen.storyboard */,
 				36F16E532646CA9100E624C4 /* Info.plist */,
 				36F16E4D2646CA9100E624C4 /* Preview Content */,
+				36544DB72658BDDE00263F3F /* ShopData.xcdatamodeld */,
 			);
 			path = GotoEatApp;
 			sourceTree = "<group>";
@@ -136,6 +414,164 @@
 			path = GotoEatAppUITests;
 			sourceTree = "<group>";
 		};
+		36F16F7C2647EF3C00E624C4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36544DD6265B2CD200263F3F /* Category */,
+				36F16EC72646D5EC00E624C4 /* Shop.swift */,
+				36544D2B2654B27500263F3F /* SearchResultShop.swift */,
+				36544DA526568BA800263F3F /* ShopData.swift */,
+				36544DC8265A1CAE00263F3F /* GenreShopData.swift */,
+				36544E91265E467D00263F3F /* ShopPage.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		36F1702A264D4C9D00E624C4 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				36F16F85264804DB00E624C4 /* URLImageView.swift */,
+				36F16F802648017900E624C4 /* URLImageViewModel.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		36F17031264D4CC900E624C4 /* ShopRow */ = {
+			isa = PBXGroup;
+			children = (
+				36F16FA1264957EA00E624C4 /* ShopRow.swift */,
+				36F17065264D741E00E624C4 /* ShopImage.swift */,
+				36F17072264DEB5F00E624C4 /* ShopView.swift */,
+			);
+			path = ShopRow;
+			sourceTree = "<group>";
+		};
+		36F17032264D4CE600E624C4 /* CategoryRow */ = {
+			isa = PBXGroup;
+			children = (
+				36F17006264A1CE100E624C4 /* CategoryRow.swift */,
+				36F1700B264A1D3900E624C4 /* Category.swift */,
+				36544DD1265A27AF00263F3F /* IzakayaCategoryShopView.swift */,
+				36544E9C2660C10D00263F3F /* IzakayaShopView.swift */,
+				36544EA42660CD6800263F3F /* KoreaCategoryShopView.swift */,
+				36544EAD2660F93400263F3F /* KoreaShopView.swift */,
+				36544EB52661115000263F3F /* SousakuCategoryShop.swift */,
+				36544EBA266111C100263F3F /* SousakuShopView.swift */,
+				36544EBF2661122900263F3F /* DiningCategoryShop.swift */,
+				36544EC42661128400263F3F /* DiningShopView.swift */,
+				36544EC9266112D500263F3F /* WashokuCategoryShop.swift */,
+				36544ECE2661131200263F3F /* WashokuShopView.swift */,
+				36544ED32661137800263F3F /* YoushokuCategoryShop.swift */,
+				36544ED8266113DF00263F3F /* YoushokuShopView.swift */,
+				36544EDD2661145F00263F3F /* ItarianCategoryShop.swift */,
+				36544EE2266114B400263F3F /* ItarianShopView.swift */,
+				36544EE72661154700263F3F /* ChuukaCategoryShop.swift */,
+				36544EEC2661159F00263F3F /* ChuukaShopView.swift */,
+				36544EF1266115FF00263F3F /* YakinikuCategoryShop.swift */,
+				36544EF62661163D00263F3F /* YakinikuShopView.swift */,
+				36544EFB2661169F00263F3F /* AsiaCategoryShop.swift */,
+				36544F002661170D00263F3F /* AsiaShopView.swift */,
+				36544F052661176700263F3F /* WorldCokkingCategoryShop.swift */,
+				36544F0A266117D600263F3F /* WorldCokkingShopView.swift */,
+				36544F10266118AA00263F3F /* CaraokeCategoryShop.swift */,
+				36544F15266118F800263F3F /* CaraokeShopView.swift */,
+				36544F1A2661197000263F3F /* BarCategoryShop.swift */,
+				36544F1F266119C200263F3F /* BarShopView.swift */,
+				36544F2426611A1100263F3F /* RamenCategoryShop.swift */,
+				36544F2926611A4A00263F3F /* RamenShopView.swift */,
+				36544F2E26611AFE00263F3F /* OkonomiyakiCategoryShop.swift */,
+				36544F3326611B4800263F3F /* OkonomiyakiShopView.swift */,
+				36544F3826611BAD00263F3F /* CafeCategoryShop.swift */,
+				36544F4226611C2400263F3F /* CafeShopView.swift */,
+				36544F3D26611BFD00263F3F /* OtherCategoryShop.swift */,
+				36544F4726611CA400263F3F /* OtherShopView.swift */,
+			);
+			path = CategoryRow;
+			sourceTree = "<group>";
+		};
+		36F17034264D4D2B00E624C4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				36F16F992649334100E624C4 /* FetchShopData.swift */,
+				36544D332654B64600263F3F /* SearchShopData.swift */,
+				36544DC3265A1C2200263F3F /* GenreSearchShopData.swift */,
+				36544E96265E48D400263F3F /* FetchShopPageData.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		36F17038264D4E5000E624C4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				36F1703D264D4E8400E624C4 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36F17077264DF48A00E624C4 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				36F17078264DF4DC00E624C4 /* PageViewController.swift */,
+				36F171A22651E25B00E624C4 /* PageView.swift */,
+				36F171A72651E70E00E624C4 /* ShopCard.swift */,
+				36F171EE2654A51F00E624C4 /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		36F170AD264E24DA00E624C4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				36F170AE264E24E800E624C4 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		36F1713E264F64C200E624C4 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				36F17142264F64D600E624C4 /* SearchViewController.swift */,
+				36F1714A264F669600E624C4 /* SearchView.swift */,
+				36544D402654D9BB00263F3F /* SearchResultItemView.swift */,
+				36544F8E2662019100263F3F /* SearchItemInfo.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		36F171DE2654A04D00E624C4 /* SampleModel */ = {
+			isa = PBXGroup;
+			children = (
+				36F171DF2654A05D00E624C4 /* ModelData.swift */,
+				36F171E42654A08F00E624C4 /* landmarkData.json */,
+				36F171E92654A0B300E624C4 /* LandMark.swift */,
+			);
+			path = SampleModel;
+			sourceTree = "<group>";
+		};
+		8437F03F6157BE068A21278D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55CB2A33ADFD84BC308BDFB5 /* Pods-GotoEatApp.debug.xcconfig */,
+				0F37EA2D410B32A801DB229C /* Pods-GotoEatApp.release.xcconfig */,
+				0C1ABDFA52D5113E7FB64A5C /* Pods-GotoEatApp-GotoEatAppUITests.debug.xcconfig */,
+				2C6D3BAA5659B9D11EF4A4D8 /* Pods-GotoEatApp-GotoEatAppUITests.release.xcconfig */,
+				D0FF95AD174053D008D11E6C /* Pods-GotoEatAppTests.debug.xcconfig */,
+				96A8C1CD4E378ECD439EA367 /* Pods-GotoEatAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1684A677957B425269C15AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36544E82265DE80A00263F3F /* CoreLocation.framework */,
+				BB9939A977BA0CC9A518A817 /* Pods_GotoEatApp.framework */,
+				5273CBCE404946631620E7A0 /* Pods_GotoEatApp_GotoEatAppUITests.framework */,
+				CCB38248341AD71D2C5C7379 /* Pods_GotoEatAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +579,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36F16E6C2646CA9100E624C4 /* Build configuration list for PBXNativeTarget "GotoEatApp" */;
 			buildPhases = (
+				445643B9A871495C5B5A4DAA /* [CP] Check Pods Manifest.lock */,
 				36F16E3E2646CA8A00E624C4 /* Sources */,
 				36F16E3F2646CA8A00E624C4 /* Frameworks */,
 				36F16E402646CA8A00E624C4 /* Resources */,
+				BA5F61F987C4A1175CBAA132 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +598,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36F16E6F2646CA9100E624C4 /* Build configuration list for PBXNativeTarget "GotoEatAppTests" */;
 			buildPhases = (
+				0F9735434CD9062D603FE846 /* [CP] Check Pods Manifest.lock */,
 				36F16E542646CA9100E624C4 /* Sources */,
 				36F16E552646CA9100E624C4 /* Frameworks */,
 				36F16E562646CA9100E624C4 /* Resources */,
@@ -178,9 +617,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36F16E722646CA9100E624C4 /* Build configuration list for PBXNativeTarget "GotoEatAppUITests" */;
 			buildPhases = (
+				0F7FF080AF664AEED270F243 /* [CP] Check Pods Manifest.lock */,
 				36F16E5F2646CA9100E624C4 /* Sources */,
 				36F16E602646CA9100E624C4 /* Frameworks */,
 				36F16E612646CA9100E624C4 /* Resources */,
+				8B7CA666AB5EF16C40B95626 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +683,7 @@
 				36F16E522646CA9100E624C4 /* LaunchScreen.storyboard in Resources */,
 				36F16E4F2646CA9100E624C4 /* Preview Assets.xcassets in Resources */,
 				36F16E4C2646CA9100E624C4 /* Assets.xcassets in Resources */,
+				36F171E52654A08F00E624C4 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +703,204 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F7FF080AF664AEED270F243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GotoEatApp-GotoEatAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F9735434CD9062D603FE846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GotoEatAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445643B9A871495C5B5A4DAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GotoEatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7CA666AB5EF16C40B95626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp-GotoEatAppUITests/Pods-GotoEatApp-GotoEatAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp-GotoEatAppUITests/Pods-GotoEatApp-GotoEatAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp-GotoEatAppUITests/Pods-GotoEatApp-GotoEatAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5F61F987C4A1175CBAA132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp/Pods-GotoEatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp/Pods-GotoEatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GotoEatApp/Pods-GotoEatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36F16E3E2646CA8A00E624C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				36F16E462646CA8A00E624C4 /* AppDelegate.swift in Sources */,
+				36544EC52661128400263F3F /* DiningShopView.swift in Sources */,
+				36544F4826611CA400263F3F /* OtherShopView.swift in Sources */,
+				36544EA52660CD6800263F3F /* KoreaCategoryShopView.swift in Sources */,
+				36544D95265678CF00263F3F /* LibralyView.swift in Sources */,
+				36544EDE2661145F00263F3F /* ItarianCategoryShop.swift in Sources */,
+				36F17079264DF4DC00E624C4 /* PageViewController.swift in Sources */,
+				36544DEF265B31A600263F3F /* WashokuData.swift in Sources */,
+				36544F062661176700263F3F /* WorldCokkingCategoryShop.swift in Sources */,
+				36544ED9266113DF00263F3F /* YoushokuShopView.swift in Sources */,
+				36544F8F2662019100263F3F /* SearchItemInfo.swift in Sources */,
+				36F1700C264A1D3900E624C4 /* Category.swift in Sources */,
+				36544E9D2660C10D00263F3F /* IzakayaShopView.swift in Sources */,
+				36544F012661170D00263F3F /* AsiaShopView.swift in Sources */,
+				36544E92265E467D00263F3F /* ShopPage.swift in Sources */,
+				36544F20266119C200263F3F /* BarShopView.swift in Sources */,
+				36544DEA265B30F400263F3F /* DiningData.swift in Sources */,
+				36544F11266118AA00263F3F /* CaraokeCategoryShop.swift in Sources */,
+				36544F3926611BAD00263F3F /* CafeCategoryShop.swift in Sources */,
 				36F16E482646CA8A00E624C4 /* SceneDelegate.swift in Sources */,
+				36544EF72661163D00263F3F /* YakinikuShopView.swift in Sources */,
+				36544E1C265B367700263F3F /* RamenData.swift in Sources */,
+				36F171A82651E70E00E624C4 /* ShopCard.swift in Sources */,
+				36544DD2265A27AF00263F3F /* IzakayaCategoryShopView.swift in Sources */,
+				36544DF9265B32F100263F3F /* ItarianFrenchiData.swift in Sources */,
+				36F17066264D741E00E624C4 /* ShopImage.swift in Sources */,
+				36F170AF264E24E800E624C4 /* MapView.swift in Sources */,
+				36544EC02661122900263F3F /* DiningCategoryShop.swift in Sources */,
+				36F171A32651E25B00E624C4 /* PageView.swift in Sources */,
+				36F171EF2654A51F00E624C4 /* PageControl.swift in Sources */,
+				36544F0B266117D600263F3F /* WorldCokkingShopView.swift in Sources */,
+				36F16F9A2649334100E624C4 /* FetchShopData.swift in Sources */,
+				36544DF4265B324800263F3F /* YoushokuData.swift in Sources */,
+				36544D2C2654B27500263F3F /* SearchResultShop.swift in Sources */,
+				36544F3426611B4800263F3F /* OkonomiyakiShopView.swift in Sources */,
+				36F16F812648017900E624C4 /* URLImageViewModel.swift in Sources */,
+				36F17143264F64D600E624C4 /* SearchViewController.swift in Sources */,
+				36F1714B264F669600E624C4 /* SearchView.swift in Sources */,
+				36544F2F26611AFE00263F3F /* OkonomiyakiCategoryShop.swift in Sources */,
+				36544E7E265DE5E800263F3F /* LocationObserver.swift in Sources */,
+				36544DC4265A1C2200263F3F /* GenreSearchShopData.swift in Sources */,
+				36544D472654F2FC00263F3F /* KeyboardObserver.swift in Sources */,
+				36544DFE265B338000263F3F /* ChuukaData.swift in Sources */,
+				36544E8D265DECC200263F3F /* LocationView.swift in Sources */,
+				36544E17265B361B00263F3F /* BarData.swift in Sources */,
+				36544F3E26611BFD00263F3F /* OtherCategoryShop.swift in Sources */,
+				36544EE82661154700263F3F /* ChuukaCategoryShop.swift in Sources */,
+				36F1703E264D4E8400E624C4 /* HomeView.swift in Sources */,
+				36544EED2661159F00263F3F /* ChuukaShopView.swift in Sources */,
+				36544E12265B359800263F3F /* CaraokeData.swift in Sources */,
 				36F16E4A2646CA8A00E624C4 /* ContentView.swift in Sources */,
+				36F16F86264804DB00E624C4 /* URLImageView.swift in Sources */,
+				36544EBB266111C100263F3F /* SousakuShopView.swift in Sources */,
+				36544DB92658BDDE00263F3F /* ShopData.xcdatamodeld in Sources */,
+				36544ECF2661131200263F3F /* WashokuShopView.swift in Sources */,
+				36544DC9265A1CAE00263F3F /* GenreShopData.swift in Sources */,
+				36544EFC2661169F00263F3F /* AsiaCategoryShop.swift in Sources */,
+				36544D342654B64600263F3F /* SearchShopData.swift in Sources */,
+				36544EE3266114B400263F3F /* ItarianShopView.swift in Sources */,
+				36544E08265B347C00263F3F /* AsiaData.swift in Sources */,
+				36544DA126568B5E00263F3F /* SaveShopData.swift in Sources */,
+				36544EB62661115000263F3F /* SousakuCategoryShop.swift in Sources */,
+				36544DA626568BA800263F3F /* ShopData.swift in Sources */,
+				36544F2526611A1100263F3F /* RamenCategoryShop.swift in Sources */,
+				36544E21265B36D500263F3F /* OkonomiyakiData.swift in Sources */,
+				36544E0D265B34F100263F3F /* WorldCookingData.swift in Sources */,
+				36544ECA266112D500263F3F /* WashokuCategoryShop.swift in Sources */,
+				36544DE5265B306300263F3F /* SousakuData.swift in Sources */,
+				36544E03265B33E700263F3F /* YakinikuData.swift in Sources */,
+				36544E2B265B37BA00263F3F /* OtherData.swift in Sources */,
+				36544F2A26611A4A00263F3F /* RamenShopView.swift in Sources */,
+				36F17073264DEB5F00E624C4 /* ShopView.swift in Sources */,
+				36F171EA2654A0B300E624C4 /* LandMark.swift in Sources */,
+				36F16FA2264957EA00E624C4 /* ShopRow.swift in Sources */,
+				36544E26265B375800263F3F /* CafeData.swift in Sources */,
+				36F17007264A1CE200E624C4 /* CategoryRow.swift in Sources */,
+				36544EAE2660F93400263F3F /* KoreaShopView.swift in Sources */,
+				36544DBF2658C0F700263F3F /* ShopCoreData.swift in Sources */,
+				36F16EC82646D5EC00E624C4 /* Shop.swift in Sources */,
+				36544D412654D9BB00263F3F /* SearchResultItemView.swift in Sources */,
+				36544F16266118F800263F3F /* CaraokeShopView.swift in Sources */,
+				36544ED42661137800263F3F /* YoushokuCategoryShop.swift in Sources */,
+				36544EF2266115FF00263F3F /* YakinikuCategoryShop.swift in Sources */,
+				36544F4326611C2400263F3F /* CafeShopView.swift in Sources */,
+				36544DE0265B2FAB00263F3F /* KoreaRestaurantData.swift in Sources */,
+				36F171E02654A05D00E624C4 /* ModelData.swift in Sources */,
+				36544E97265E48D400263F3F /* FetchShopPageData.swift in Sources */,
+				36544F1B2661197000263F3F /* BarCategoryShop.swift in Sources */,
+				36544E88265DEB0E00263F3F /* LocationMapView.swift in Sources */,
+				36544DD8265B2CEC00263F3F /* IzakayaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +1065,7 @@
 		};
 		36F16E6D2646CA9100E624C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CB2A33ADFD84BC308BDFB5 /* Pods-GotoEatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +1087,7 @@
 		};
 		36F16E6E2646CA9100E624C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F37EA2D410B32A801DB229C /* Pods-GotoEatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +1109,7 @@
 		};
 		36F16E702646CA9100E624C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FF95AD174053D008D11E6C /* Pods-GotoEatAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +1132,7 @@
 		};
 		36F16E712646CA9100E624C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A8C1CD4E378ECD439EA367 /* Pods-GotoEatAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +1155,7 @@
 		};
 		36F16E732646CA9100E624C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1ABDFA52D5113E7FB64A5C /* Pods-GotoEatApp-GotoEatAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +1176,7 @@
 		};
 		36F16E742646CA9100E624C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C6D3BAA5659B9D11EF4A4D8 /* Pods-GotoEatApp-GotoEatAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +1235,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36544DB72658BDDE00263F3F /* ShopData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36544DB82658BDDE00263F3F /* ShopData.xcdatamodel */,
+			);
+			currentVersion = 36544DB82658BDDE00263F3F /* ShopData.xcdatamodel */;
+			path = ShopData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 36F16E3A2646CA8A00E624C4 /* Project object */;
 }
